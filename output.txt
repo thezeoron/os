@@ -1,0 +1,369 @@
+Client Message (PID: 191)
+Type: START
+
+Server Message (PID: 191)
+Type: RESULT
+Success: 0
+Filled Count: 0
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . . . . . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . . . . 
+
+Client Message (PID: 190)
+Type: START
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 0
+Filled Count: 0
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . . . . . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . . . . 
+
+Client Message (PID: 191)
+Type: MARK
+Position: (1, 0)
+
+Server Message (PID: 191)
+Type: RESULT
+Success: 1
+Filled Count: 1
+Grid Updates:
+Position: (1, 0), Character: O
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . . . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . . . . 
+
+Client Message (PID: 190)
+Type: MARK
+Position: (1, 0)
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 0
+Filled Count: 1
+Grid Updates:
+Position: (1, 0), Character: O
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . . . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . . . . 
+
+Client Message (PID: 192)
+Type: START
+
+Server Message (PID: 192)
+Type: RESULT
+Success: 0
+Filled Count: 1
+Grid Updates:
+Position: (1, 0), Character: O
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . . . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . . . . 
+
+Client Message (PID: 192)
+Type: MARK
+Position: (3, 0)
+
+Server Message (PID: 192)
+Type: RESULT
+Success: 1
+Filled Count: 2
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . . . . 
+
+Client Message (PID: 190)
+Type: MARK
+Position: (2, 4)
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 1
+Filled Count: 3
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . X . . 
+
+Client Message (PID: 192)
+Type: MARK
+Position: (2, 4)
+
+Server Message (PID: 192)
+Type: RESULT
+Success: 0
+Filled Count: 3
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 . . X . . 
+
+Client Message (PID: 191)
+Type: MARK
+Position: (0, 4)
+
+Server Message (PID: 191)
+Type: RESULT
+Success: 1
+Filled Count: 4
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . . . . 
+2 . . . . . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 190)
+Type: MARK
+Position: (2, 1)
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 1
+Filled Count: 5
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X . . 
+2 . . . . . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 190)
+Type: MARK
+Position: (3, 0)
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 0
+Filled Count: 5
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X . . 
+2 . . . . . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 192)
+Type: MARK
+Position: (2, 1)
+
+Server Message (PID: 192)
+Type: RESULT
+Success: 0
+Filled Count: 5
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X . . 
+2 . . . . . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 191)
+Type: MARK
+Position: (3, 1)
+
+Server Message (PID: 191)
+Type: RESULT
+Success: 1
+Filled Count: 6
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (3, 1), Character: O
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X O . 
+2 . . . . . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 190)
+Type: MARK
+Position: (3, 2)
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 1
+Filled Count: 7
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (3, 1), Character: O
+Position: (3, 2), Character: X
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X O . 
+2 . . . X . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 192)
+Type: MARK
+Position: (4, 1)
+
+Server Message (PID: 192)
+Type: RESULT
+Success: 1
+Filled Count: 8
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (3, 1), Character: O
+Position: (4, 1), Character: Z
+Position: (3, 2), Character: X
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X O Z 
+2 . . . X . 
+3 . . . . . 
+4 O . X . . 
+
+Client Message (PID: 190)
+Type: MARK
+Position: (4, 3)
+
+Server Message (PID: 190)
+Type: RESULT
+Success: 1
+Filled Count: 9
+Grid Updates:
+Position: (1, 0), Character: O
+Position: (3, 0), Character: Z
+Position: (2, 1), Character: X
+Position: (3, 1), Character: O
+Position: (4, 1), Character: Z
+Position: (3, 2), Character: X
+Position: (4, 3), Character: X
+Position: (0, 4), Character: O
+Position: (2, 4), Character: X
+
+
+Current Grid State:
+  0 1 2 3 4 
+0 . O . Z . 
+1 . . X O Z 
+2 . . . X . 
+3 . . . . X 
+4 O . X . . 
+
+Server Message (PID: 190)
+Type: END
+
+Server Message (PID: 191)
+Type: END
+
+Server Message (PID: 192)
+Type: END
+
+Winner: PlayerX
